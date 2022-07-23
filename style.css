@@ -11,6 +11,32 @@
   background: radial-gradient(rgb(15, 3, 105), black);
 }
 
+#controls {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+#controls h3 {
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#controls button {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  transition: all .15s;
+}
+
+#controls button:hover {
+  background-color: rgba(255,255,255,0.11)
+}
+
 #sun {
   position: absolute;
   left: 50%;
